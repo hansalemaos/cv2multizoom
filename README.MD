@@ -4,6 +4,7 @@
 ```python
 # Allowed image formats: url/path/buffer/base64/PIL/np
 # ffmpeg must be installed 
+$ pip install cv2multizoom
 from cv2multizoom import multizoom
 multizoom(
     img=r"https://github.com/hansalemaos/screenshots/raw/main/splitted1.png",
